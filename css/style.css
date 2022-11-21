@@ -1,0 +1,28 @@
+#gridwrapper{
+    display: grid;
+grid-area: 
+"he"
+"nav"
+"ar"
+"fo";
+height: 100mvh;
+}
+header{
+    grid-area: he;
+background-color: aqua;
+}
+
+nav{
+    grid-area: na;
+    background-color: blue;
+}
+
+article{
+    grid-area: ar;
+    background-color: blueviolet;
+}
+
+footer{
+    grid-area: fo;
+    background-color: cadetblue;
+}
