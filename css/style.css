@@ -1,28 +1,84 @@
-#gridwrapper{
-    display: grid;
-grid-area: 
-"he"
-"nav"
-"ar"
-"fo";
-height: 100mvh;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap')
+
+#grid_wrapper{
+display: grid;
+height: 100vh;
+grid-template-areas:  
+"he he"
+"na na"
+"ar ar"
+"se se"
+"fo fo";
 }
 header{
-    grid-area: he;
+grid-area: he;
 background-color: aqua;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 nav{
     grid-area: na;
     background-color: blue;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 article{
     grid-area: ar;
     background-color: blueviolet;
+    height: 300px;
+    padding: 30px;
 }
-
+section{
+    grid-area: se;
+    background-color: darkcyan;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 footer{
     grid-area: fo;
     background-color: cadetblue;
+    height: 150px;
+}
+#djur{
+    height: 350px;
+    width: auto;
+    border-radius: 20px;
+    border-color: rgb(185, 60, 60);
+    border-style: ridge;
+    border-width: 10px
+   
+}
+h1{
+font-size: 70px;
+font-family: 'Nerko One', cursive;
+}
+
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 40px;
+    padding-left: 10px;
+}
+h4{
+    font-size: 30px;
+    padding: 10px;
+}
+p{
+    font-size: 15px;
+    padding: 15px;
 }
