@@ -24,10 +24,6 @@ height: 100px;
 display: flex;
 justify-content: center;
 align-items: center;
-border-radius: 5px;
-border-color: #588157;
-border-width: 2px;
-border-style: solid;
 
 }
 
@@ -38,10 +34,6 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-radius: 5px;
-border-color: #588157;
-border-width: 2px;
-border-style: solid;
    
 }
 .link{
@@ -50,16 +42,14 @@ border-style: solid;
 }
 a:hover{
     pointer-events: stroke;
+    box-shadow: #ffffff;
 }
 article{
     grid-area: ar;
     background-color: #a3b18a;
     height: 300px;
     padding: 30px;
-    border-radius: 5px;
-border-color: #a3b18a;
-border-width: 2px;
-border-style: solid;
+
 }
 section{
     grid-area: se;
@@ -77,17 +67,13 @@ footer{
     grid-area: fo;
     background-color: #588157;
     height: 150px;
-    border-radius: 5px;
-border-color: #588157;
-border-width: 2px;
-border-style: solid;
 }
 #djur{
-    height: 350px;
+    height: 500px;
     width: auto;
     border-radius: 40px;
     border-color: #588157;
-    border-style: ridge;
+    border-style: solid;
     border-width: 10px
    
 }
@@ -129,15 +115,15 @@ align-items: flex-start;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;  
-    font-size: 20px;
+    font-size: 15px;
    border-radius: 20px;
-   margin: 1px;
-   border-color: #588157;
-   border-width: 4px;
+   margin: -40px;
    border-style: solid;
    
       
 }
+
+
 #personal_section{
     flex-wrap: wrap;
     display: flex;
@@ -152,6 +138,7 @@ align-items: flex-start;
     height: 250px;
     margin: 10px;
 }
+
 #bild1{
     background-size: contain;
     background-image: url(../img/persons/avatar-aea3441ddc1173c3b63794fe1ebcce0e.jpg);
@@ -169,3 +156,23 @@ align-items: flex-start;
     background-size:contain;
     background-image: url(../img/persons/avatar-6eff317c04c60419d06b2f4b0323eef0.jpg);
 }
+#resturang_section{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+
+}
+#resturang_rubrik{
+    margin-top: -600px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#resturang_text{
+margin-top: -600px;
+align-items: center;
+display: flex;
+background-color: #ffffff;
+}
+
+
