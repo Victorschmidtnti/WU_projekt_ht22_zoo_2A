@@ -38,11 +38,10 @@ nav{
 }
 .link{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 a:hover{
     pointer-events: stroke;
-    box-shadow: #ffffff;
 }
 article{
     grid-area: ar;
@@ -68,7 +67,7 @@ footer{
     background-color: #588157;
     height: 150px;
 }
-#djur{
+.djur{
     height: 500px;
     width: auto;
     border-radius: 40px;
@@ -110,7 +109,7 @@ align-items: flex-start;
 
 
 }
-#personal_namn{
+.personal_namn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,20 +158,41 @@ align-items: flex-start;
 #resturang_section{
     display: flex;
     flex-direction: column;
-    height: 1000px;
+    height: 915px;
+    width: auto;
+    background-image: url(../img/food/Bakgrund_resturang.png);
+    background-size: cover;
 
 }
 #resturang_rubrik{
-    margin-top: -600px;
+
     justify-content: center;
     display: flex;
     align-items: center;
-}
-#resturang_text{
-margin-top: -600px;
-align-items: center;
-display: flex;
-background-color: #ffffff;
+    
 }
 
+
+.meny{
+font-size: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#meny_container{
+    background-color: hwb(0 100% 0% / 0.92);
+    height: auto;
+    margin-bottom: 90px;
+    margin-top: 185px;
+    width: 700px;
+    border-radius: 20px;
+    border-color: #588157;
+    border-width: 10px;
+    border-style: solid;
+}
+.text_meny{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
